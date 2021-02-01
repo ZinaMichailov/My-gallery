@@ -37,3 +37,14 @@ function renderModal(id) {
     $('.modal-body .date').text(`Date: ${portfolio.publishedAt}`);
     $('.modal-body .link-proj').attr('href', portfolio.url);
 }
+
+function onSumbitContact(ev) {
+    ev.preventDefault();
+
+    var url = `https://mail.google.com/mail/?view=cm&fs=1&to=zinam84@gamil.com
+                &su=${$('#subject').val()}&body=${$('#body').val()} from:${$('#email').val()}`;
+    window.open(url);
+    $('#subject').val('');
+    $('#body').val('');
+    $('#email').val('');
+}

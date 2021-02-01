@@ -34,7 +34,21 @@
 
     <!-- Contact -->
     <section id="contact">
-      <h4>Contact Me</h4>
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Your E-mail</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Subject</label>
+          <textarea class="form-control" id="subject" rows="1"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Massage Body</label>
+          <textarea class="form-control" id="body" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" onclick="onSumbitContact(event)">Submit</button>
+      </form>
     </section>
 
   </aside>
@@ -60,7 +74,7 @@
             <a class="nav-link js-scroll-trigger" href="#me">Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" onClick="openCanvas()">Contact</a>
           </li>
         </ul>
       </div>
@@ -84,39 +98,27 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading">Specialities</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 class="section-subheading text-muted">My specialities</h3>
         </div>
       </div>
       <div class="row text-center">
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">E-Commerce</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
-            quo inventore harum ex
-            magni, dicta impedit.</p>
-        </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
             <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Responsive Design</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
-            quo inventore harum ex
-            magni, dicta impedit.</p>
+          <h4 class="service-heading">Full stack developer</h4>
+          <p class="text-muted">Proficient in front-end and back-end languages and frameworks,
+             as well as in server, network and hosting environments.
+          </p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+            <i class="fa fa-industry fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Web Security</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
-            quo inventore harum ex
-            magni, dicta impedit.</p>
+          <h4 class="service-heading">Chemical Engineer</h4>
+          <p class="text-muted">Design and operation of chemical plants as well as methods of improving production. Specializing in materials</p>
         </div>
       </div>
     </div>
@@ -178,7 +180,7 @@
             <img src="./img/ca-logo.png" alt="">
           </a>
         </div>
-        <div class="col-md-4 flex-align-center">
+        <div class="col-md-5 flex-align-center">
           <ul class="list-inline social-buttons flex-align-center">
             <li class="list-inline-item">
               <a href="#">
@@ -186,24 +188,14 @@
               </a>
             </li>
             <li class="list-inline-item flex-align-center">
-              <a href="#">
+              <a href="https://www.facebook.com/zina.mihailov" target="_blank">
                 <i class="fa fa-facebook"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/zina-michailov/" target="_blank">
                 <i class="fa fa-linkedin"></i>
               </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4 flex-align-center">
-          <ul class="list-inline quicklinks">
-            <li class="list-inline-item">
-              <a href="#">More Me</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">Even More</a>
             </li>
           </ul>
         </div>
