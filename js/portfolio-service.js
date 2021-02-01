@@ -20,6 +20,16 @@ var gPortfolios = [
         url: '#',
         publishedAt: '19/01/2021', 
         labels: ['Game', 'keyboard events'],
+    },    
+    {
+        id: 'chess', 
+        name: 'Chess', 
+        title: 'Chess game js', 
+        desc: `Chess is a recreational and competitive board game played between two players. chess is one of the world's
+             most popular games, played by millions of people worldwide at home, in clubs, online, by correspondence, and in tournaments.`, 
+        url: '#',
+        publishedAt: '17/01/2021', 
+        labels: ['Game', 'keyboard events'],
     }    
 ];
 
